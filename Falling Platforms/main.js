@@ -49,7 +49,7 @@ function moveRectangle(aRectangle) {
         aRectangle.y += aRectangle.speed;
     } else {
         aRectangle.x = randomInt(10,cnv.width -30)
-        aRectangle.y = -10
+        aRectangle.y = -30
     }
 }
 
